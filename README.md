@@ -1,2 +1,57 @@
-# credit-card-validator-cpp
-💳 Credit Card Validator (C++ | Luhn Algorithm)  A simple and efficient C++ program that validates credit card numbers using the Luhn Algorithm, a widely used method for verifying identification numbers.  
+💳 Credit Card Validator (C++ | Luhn Algorithm)
+
+A lightweight and efficient C++ application that validates credit card numbers using the Luhn Algorithm, a standard checksum formula widely used in financial systems.
+
+📌 Overview
+
+This project demonstrates core programming concepts and algorithmic thinking by implementing a real-world validation technique. It focuses on clean code structure, modular design, and efficient string-based processing.
+
+⚙️ How It Works
+
+The program validates a credit card number using the following steps:
+
+Starting from the rightmost digit, double every second digit
+If the result of doubling is greater than 9, sum its digits
+Add all digits together (processed + untouched)
+If the total is divisible by 10 → the number is valid
+🚀 Features
+✔️ Implementation of the Luhn Algorithm
+✔️ Clean and modular function-based design
+✔️ Efficient digit processing using std::string
+✔️ Input validation (digits only)
+✔️ Simple and user-friendly command-line interface
+🛠️ Technologies Used
+C++
+Standard Library:
+<iostream>
+<string>
+<cctype>
+▶️ Getting Started
+1. Clone the repository
+git clone https://github.com/your-username/credit-card-validator-cpp.git
+2. Navigate to the project folder
+cd credit-card-validator-cpp
+3. Compile the program
+g++ main.cpp -o validator
+4. Run the program
+./validator
+📈 Example Usage
+Enter a credit card number: 4532015112830366
+4532015112830366 is VALID
+📂 Project Structure
+credit-card-validator-cpp/
+│── main.cpp
+│── README.md
+🔮 Future Improvements
+Add card type detection (Visa, MasterCard, etc.)
+Implement a graphical user interface (GUI)
+Support multiple inputs in a single run
+Add file input/output functionality
+🎯 Learning Objectives
+Practice algorithm implementation
+Improve problem-solving skills
+Understand real-world validation techniques
+Write clean and maintainable C++ code
+📄 License
+
+This project is open-source and available for educational purposes.
