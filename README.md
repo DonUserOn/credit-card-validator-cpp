@@ -26,22 +26,7 @@ Standard Library:
 <iostream>
 <string>
 <cctype>
-▶️ Getting Started
-1. Clone the repository
-git clone https://github.com/your-username/credit-card-validator-cpp.git
-2. Navigate to the project folder
-cd credit-card-validator-cpp
-3. Compile the program
-g++ main.cpp -o validator
-4. Run the program
-./validator
-📈 Example Usage
-Enter a credit card number: 4532015112830366
-4532015112830366 is VALID
-📂 Project Structure
-credit-card-validator-cpp/
-│── main.cpp
-│── README.md
+
 🔮 Future Improvements
 Add card type detection (Visa, MasterCard, etc.)
 Implement a graphical user interface (GUI)
